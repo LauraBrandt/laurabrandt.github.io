@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">  
+  <link href="https://fonts.googleapis.com/css?family=Arsenal|Quattrocento+Sans" rel="stylesheet">
+  <title>Laura Brandt</title>
+</head>
+<body>
+  <div class="nav-container">
+    <nav>
+      <a href="#home" class="home-link active">Laura Brandt</a>
+      <button type="button" role="button" aria-label="Toggle Navigation" class="toggle-nav">
+        <span class="lines"></span>
+      </button>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="https://github.com/LauraBrandt"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/laurambrandt"><i class="fab fa-linkedin"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <main>
+    <section id="home">
+      <h1>Hi, my name is Laura Brandt</h1>
+      <p class="subtitle">I'm a full stack web developer</p>
+      <div class="link-portfolio" tabindex="0">
+        <div>Check out my work</div>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+      <div class="home-overlay"></div>
+    </section>
+    <section id="about">
+      <div class="title"><h2>About</h2></div>
+      <div class="content">
+        <div class="text">
+          <p>
+              With more than three years’ experience building websites and apps from the ground up, I’m passionate about designing useful and elegant solutions for people. I work with both front end and back end, using a combination of creativity and a logical, organized approach. I love making things and turning ideas into reality!
+          </p>
+        </div>
+        <img src="images/me_adj.jpg" alt="Laura Brandt">
+      </div>
+    </section>
+    <section id="portfolio">
+      <div class="title"><h2>Portfolio</h2></div>
+      <div class="portfolio-items"></div>
+    </section>
+    <section id="contact">
+      <div class="title"><h2>Contact</h2></div>
+      <div class="content">
+        <div>Get in touch!</div>
+        <a class="email" href="mailto:laurambrandt@gmail.com"><i class="far fa-envelope"></i> Contact Me</a>
+        <div class="socials">
+          <a href="https://github.com/LauraBrandt"><i class="fab fa-github"></i> <!-- Github --></a>
+          <a href="https://codepen.io/LauraBrandt"><i class="fab fa-codepen"></i> <!-- Codepen --></a> 
+          <a href="https://www.linkedin.com/in/laurambrandt"><i class="fab fa-linkedin-in"></i> <!-- LinkedIn --></a>
+          <a href="https://freecodecamp.com/laurabrandt"><i class="fab fa-free-code-camp"></i> <!-- freeCodeCamp --></a>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
+  </main>
+  <footer>Copyright &copy; 2018 Laura Brandt</footer>
+  <script data-main="scripts/main.js" src="scripts/require.js"></script>
+  <!-- <script src="scripts/main.js"></script> -->
+</body>
+</html>
