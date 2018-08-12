@@ -249,7 +249,7 @@ main {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin: 2rem 18px 0 18px;
+    margin: 2.5rem 18px 0 18px;
 
     .card {
       display: -webkit-box;
@@ -513,9 +513,9 @@ main {
       text-decoration: none;
       width: 100%;
       text-transform: uppercase;
-      -webkit-transition: $transition;
-      -o-transition: $transition;
-      transition: $transition;
+      -webkit-transition: all 0.4s;
+      -o-transition: all 0.4s;
+      transition: all 0.4s;
       i {
         padding-right: 0.3em;
       }
@@ -550,12 +550,12 @@ main {
         align-items: center;
         border: 1px solid #eee;
         border-radius: 50%;
-        -webkit-transition: $transition;
-        -o-transition: $transition;
-        transition: $transition;
+        -webkit-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        transition: all 0.4s;
         &:hover {
           border: 1px solid rgba($main-color, 0);
-          color: darken($main-color, 25%);
+          color: darken($main-color, 20%);
           background-color: #eee;
         }
       }
