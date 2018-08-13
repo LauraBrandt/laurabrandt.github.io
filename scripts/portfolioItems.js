@@ -19,6 +19,15 @@ define({
       tools: ["JAMstack", "Hugo static site generator", "Custom theme", "jQuery", "NetlifyCMS backend", "Deployed with Netlify from Github"]
     },
     {
+      name: "PollPlace",
+      imageUrl1: "images/projects/pollplace.jpg",
+      imageUrl2: "images/projects/pollplace2.jpg",
+      description: "A voting app where users can add polls, and other users can vote on them.",
+      githubUrl: "https://github.com/LauraBrandt/voting-app",
+      liveUrl: "http://pollplace.herokuapp.com/",
+      tools: ["Node.js/Express", "Custom API", "MongoDB/Mongoose", "Authentication with Passport", "Pug template engine", "CSS3", "Bootstrap", "Responsive design", "Ajax", "Chart.js"]
+    },
+    {
       name: "Stock Tracker",
       imageUrl1: "images/projects/stock-tracker.jpg",
       imageUrl2: "images/projects/stock-tracker2.jpg",
@@ -37,13 +46,13 @@ define({
       tools: ["Node.js/Express", "Custom API", "MongoDB/Mongoose", "Authentication with JWT", "Bcrypt.js to hash passwords", "React", "React Router", "Axios for HTTP requests", "CSS3 and Material UI"]
     },
     {
-      name: "PollPlace",
-      imageUrl1: "images/projects/pollplace.jpg",
-      imageUrl2: "images/projects/pollplace2.jpg",
-      description: "A voting app where users can add polls, and other users can vote on them.",
-      githubUrl: "https://github.com/LauraBrandt/voting-app",
-      liveUrl: "http://pollplace.herokuapp.com/",
-      tools: ["Node.js/Express", "Custom API", "MongoDB/Mongoose", "Authentication with Passport", "Pug template engine", "CSS3", "Bootstrap", "Responsive design", "Ajax", "Chart.js"]
+      name: "URL Shortening API",
+      imageUrl1: "images/projects/url-shortener.jpg",
+      imageUrl2: "images/projects/url-shortener2.jpg",
+      description: "Lets users create a short url which redirects to their original url.",
+      githubUrl: "https://github.com/LauraBrandt/url-shortener",
+      liveUrl: "https://lb-url-shortener.herokuapp.com/",
+      tools: ["Node.js", "Express", "MongoDB/Mongoose", "Input validation with valid-url", "HTML5", "Bootstrap", "CSS"]
     },
     {
       name: "Conway's Game of Life",
@@ -64,6 +73,15 @@ define({
       tools: ["React", "Redux", "JavaScript ES6", "local storage", "CSS3", "Flexbox", "Sass", "Responsive design"]
     },
     {
+      name: "Markdown Previewer",
+      imageUrl1: "images/projects/markdown-previewer.jpg",
+      imageUrl2: "images/projects/markdown-previewer2.jpg",
+      description: "Users can enter markdown text in the editor, which will be live rendered as HTML in the preview window.",
+      githubUrl: "https://github.com/LauraBrandt/markdown-previewer",
+      liveUrl: "https://codepen.io/LauraBrandt/full/mqbENJ/",
+      tools: ["React", "Marked", "CSS3", "Flexbox", "Sass", "Responsive design"]
+    },
+    {
       name: "Drum Machine",
       imageUrl1: "images/projects/drum-machine.jpg",
       imageUrl2: "images/projects/drum-machine2.jpg",
@@ -81,24 +99,6 @@ define({
     //   liveUrl: "https://codepen.io/LauraBrandt/full/gGBXqb/",
     //   tools: []
     // },
-    {
-      name: "Markdown Previewer",
-      imageUrl1: "images/projects/markdown-previewer.jpg",
-      imageUrl2: "images/projects/markdown-previewer2.jpg",
-      description: "Users can enter markdown text in the editor, which will be live rendered as HTML in the preview window.",
-      githubUrl: "https://github.com/LauraBrandt/markdown-previewer",
-      liveUrl: "https://codepen.io/LauraBrandt/full/mqbENJ/",
-      tools: ["React", "Marked", "CSS3", "Flexbox", "Sass", "Responsive design"]
-    },
-    {
-      name: "Crochet Crafts Landing Page",
-      imageUrl1: "images/projects/crochet-crafts.jpg",
-      imageUrl2: "images/projects/crochet-crafts2.jpg",
-      description: "Product landing page for crocheted items.",
-      githubUrl: "https://github.com/LauraBrandt/crochetcrafts-landing-page",
-      liveUrl: "https://codepen.io/LauraBrandt/full/OwobLR/",
-      tools: ["HTML5", "CSS3", "Flexbox", "Responsive design", "JavaScript"]
-    },
     // {
     //   name: "Pomodoro Timer",
     //   imageUrl1: "https://s3.amazonaws.com/laurabrandt/",
@@ -109,15 +109,6 @@ define({
     //   tools: []
     // },
     {
-      name: "URL Shortening API",
-      imageUrl1: "images/projects/url-shortener.jpg",
-      imageUrl2: "images/projects/url-shortener2.jpg",
-      description: "Lets users create a short url which redirects to their original url.",
-      githubUrl: "https://github.com/LauraBrandt/url-shortener",
-      liveUrl: "https://lb-url-shortener.herokuapp.com/",
-      tools: ["Node.js", "Express", "MongoDB/Mongoose", "Input validation with valid-url", "HTML5", "Bootstrap", "CSS"]
-    },
-    {
       name: "Image Search API",
       imageUrl1: "images/projects/image-search.jpg",
       imageUrl2: "images/projects/image-search2.jpg",
@@ -127,22 +118,13 @@ define({
       tools: ["Node.js", "Express", "Google Search API", "HTML", "Bootstrap"]
     },
     {
-      name: "Timestamp API",
-      imageUrl1: "images/projects/timestamp-api.jpg",
-      imageUrl2: "images/projects/timestamp-api2.jpg",
-      description: "Returns Unix timestamp and natural language format of a date passed as a parameter.",
-      githubUrl: "https://github.com/LauraBrandt/timestamp-api",
-      liveUrl: "https://timestamp-api.herokuapp.com/",
-      tools: ["Node.js", "Express", "Moment", "HTML", "CSS", "Bootstrap"]
-    },
-    {
-      name: "File Metadata Microservice API",
-      imageUrl1: "images/projects/file-metadata-api.jpg",
-      imageUrl2: "images/projects/file-metadata-api2.jpg",
-      description: "Lets user upload a file and responds with file size.",
-      githubUrl: "https://github.com/LauraBrandt/file-metadata-microservice",
-      liveUrl: "https://pool-pike.glitch.me/",
-      tools: ["Node.js", "Express", "Multer", "HTML5", "CSS", "Bootstrap"]
+      name: "Crochet Crafts Landing Page",
+      imageUrl1: "images/projects/crochet-crafts.jpg",
+      imageUrl2: "images/projects/crochet-crafts2.jpg",
+      description: "Product landing page for crocheted items.",
+      githubUrl: "https://github.com/LauraBrandt/crochetcrafts-landing-page",
+      liveUrl: "https://codepen.io/LauraBrandt/full/OwobLR/",
+      tools: ["HTML5", "CSS3", "Flexbox", "Responsive design", "JavaScript"]
     },
     {
       name: "Simon Game",
@@ -154,6 +136,15 @@ define({
       tools: ["HTML5", "CSS", "Bootstrap", "Sass", "Responsive design", "jQuery"]
     },
     {
+      name: "Timestamp API",
+      imageUrl1: "images/projects/timestamp-api.jpg",
+      imageUrl2: "images/projects/timestamp-api2.jpg",
+      description: "Returns Unix timestamp and natural language format of a date passed as a parameter.",
+      githubUrl: "https://github.com/LauraBrandt/timestamp-api",
+      liveUrl: "https://timestamp-api.herokuapp.com/",
+      tools: ["Node.js", "Express", "Moment", "HTML", "CSS", "Bootstrap"]
+    },
+    {
       name: "Tic-Tac-Toe",
       imageUrl1: "images/projects/tic-tac-toe.jpg",
       imageUrl2: "images/projects/tic-tac-toe2.jpg",
@@ -161,6 +152,15 @@ define({
       githubUrl: "https://github.com/LauraBrandt/tic-tac-toe",
       liveUrl: "https://codepen.io/LauraBrandt/full/XdgGNj/", 
       tools: ["HTML", "CSS", "Sass", "Bootstrap", "jQuery", "Minimax Algorithm"]
+    },
+    {
+      name: "File Metadata Microservice API",
+      imageUrl1: "images/projects/file-metadata-api.jpg",
+      imageUrl2: "images/projects/file-metadata-api2.jpg",
+      description: "Lets user upload a file and responds with file size.",
+      githubUrl: "https://github.com/LauraBrandt/file-metadata-microservice",
+      liveUrl: "https://pool-pike.glitch.me/",
+      tools: ["Node.js", "Express", "Multer", "HTML5", "CSS", "Bootstrap"]
     },
     {
       name: "Wikipedia Search",
