@@ -71,6 +71,13 @@
     </section>
   </main>
   <footer>Copyright &copy; 2018 Laura Brandt</footer>
+
+  <script>
+    console.log(window.location.host, window.location.protocol)
+    if (window.location.host === "laura-brandt.com" && window.location.protocol !== "https:") {
+      window.location.protocol = "https";
+    }
+  </script>
   <script data-main="scripts/main.js" src="scripts/require.js"></script>
   <!-- <script src="scripts/main.js"></script> -->
 </body>
