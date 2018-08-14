@@ -1,10 +1,3 @@
-/********** Redirect to https **********/
-console.log(window.location.host, window.location.protocol);
-if ((window.location.host === 'laurabrandt.github.io' || window.location.host === 'laura-brandt.com')
-  && window.location.protocol !== "https:") {
-  window.location.protocol = "https:"
-}
-
 /********** Navbar toggle **********/
 let open = false;
 const toggleNavButton = document.querySelector('.toggle-nav');

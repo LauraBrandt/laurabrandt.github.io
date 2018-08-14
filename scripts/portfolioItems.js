@@ -92,8 +92,8 @@ define({
     },
     // {
     //   name: "Pug Technical Documentation",
-    //   imageUrl1: "https://s3.amazonaws.com/laurabrandt/",
-    //   imageUrl2: "https://s3.amazonaws.com/laurabrandt/",
+    //   imageUrl1: "",
+    //   imageUrl2: "",
     //   description: "",
     //   githubUrl: "",
     //   liveUrl: "https://codepen.io/LauraBrandt/full/gGBXqb/",
@@ -101,8 +101,8 @@ define({
     // },
     // {
     //   name: "Pomodoro Timer",
-    //   imageUrl1: "https://s3.amazonaws.com/laurabrandt/",
-    //   imageUrl2: "https://s3.amazonaws.com/laurabrandt/",
+    //   imageUrl1: "",
+    //   imageUrl2: "",
     //   description: "",
     //   githubUrl: "",
     //   liveUrl: "",
